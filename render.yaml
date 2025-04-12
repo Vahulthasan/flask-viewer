@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-viewer
+    env: python
+    buildCommand: ""
+    startCommand: python view_app.py
+    plan: free
